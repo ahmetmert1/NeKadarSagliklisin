@@ -5,6 +5,7 @@ Bu yüzden öğrendiklerimi pekiştirmek amacıyla basit bir test uygulaması ya
 
 Uygulamaya göre her bir sorunun kendine özel bir puanı var ve siz cevaplarınıza göre 
 kendi puanınızı topluyorsunuz.
+
 Bunun sonucunda puanınız skalada denk gelen yere göre 
 sonucunuzu elde ediyorsunuz.
 
