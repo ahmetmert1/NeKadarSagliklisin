@@ -3,6 +3,8 @@ Android uygulaması geliştirme alanına yöneldim ve çalışmaya başladım.
 
 Bu yüzden öğrendiklerimi pekiştirmek amacıyla basit bir test uygulaması yazdım.
 
+
+
 Uygulamaya göre her bir sorunun kendine özel bir puanı var ve siz cevaplarınıza göre 
 kendi puanınızı topluyorsunuz.
 
