@@ -1,4 +1,4 @@
-package com.example.hanginlhkarakterisin;
+package com.example.NeKadarSagliklisin;
 
 import androidx.appcompat.app.AppCompatActivity;
 

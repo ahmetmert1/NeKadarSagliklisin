@@ -32,7 +32,7 @@
                android:textColor="#000"
                android:gravity="center"
                android:padding="15dp"
-               android:text="Hangi NLH karakterisin ?"/>
+               android:text="Ne Kadar Sağlıklısın  ?"/>
 
 
            <View
@@ -46,7 +46,7 @@
                android:layout_width="match_parent"
                android:layout_height="150dp"
 
-               android:src="@drawable/soru1lol"/>
+               android:src="@drawable/uyku"/>
 
 
 
@@ -55,7 +55,7 @@
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="LOL oynuyor musun ?"
+               android:text="Günde en az 7 saat uyur musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -92,13 +92,13 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru2dogecoin"/>
+               android:src="@drawable/kahvalti"/>
 
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="Kripto para işinde misin ?"
+               android:text="Kahvaltını düzenli yapar mısın ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -134,12 +134,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru3nargile"/>
+               android:src="@drawable/fastfood"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="Nargile içer misin?"
+               android:text="Genelde fast-food mu beslenirsin ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -173,12 +173,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru4izmirdepremi"/>
+               android:src="@drawable/sigara"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="İzmir depremini hissettin mi?"
+               android:text="Sigara kullanıyor musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -213,12 +213,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru5nofap2"/>
+               android:src="@drawable/alkol"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="No F*B ci misin?"
+               android:text="Alkol kullanıyor musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -253,12 +253,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru6lolping"/>
+               android:src="@drawable/yuruyus"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="Lol de pingin var mı?"
+               android:text="Günde en az yarım saat yürüyor musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -293,12 +293,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru7discord"/>
+               android:src="@drawable/ekmek"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="Discord'a atılan her kızın ismini bulur musun?"
+               android:text="Her öğün 2 dilimden fazla ekmek yiyor musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -333,12 +333,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru8kedy"/>
+               android:src="@drawable/su"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="Kedin var mı ?"
+               android:text="Günde 2 litre su tüketiyor musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -373,12 +373,12 @@
            <ImageView
                android:layout_width="wrap_content"
                android:layout_height="150dp"
-               android:src="@drawable/soru9edt"/>
+               android:src="@drawable/stress"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="EDT den 100 aldın mı ?"
+               android:text="Stresli bir hayatın var mı ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -410,18 +410,15 @@
                android:layout_height="10dp"
                android:background="?android:attr/listDivider"/>
 
-           <TextView
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-                android:text="çerEZ"
-               android:textSize="40dp"
-               android:textColor="#FF5733"
-               android:gravity="center"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/hasta"/>
 
            <TextView
                android:layout_width="match_parent"
                android:layout_height="match_parent"
-               android:text="58 dk esnek atıp çerEZ yazdın mı ?"
+               android:text="Sık sık hasta olur musun ?"
                android:gravity="center"
                android:textSize="18dp"
                android:textColor="#000"
@@ -453,7 +450,7 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:background="@drawable/butonsekil"
-               android:text="Karakterini öğren"
+               android:text="Sonucu gör"
                android:id="@+id/butonson1"
                android:gravity="center"
                android:layout_marginTop="15dp"
