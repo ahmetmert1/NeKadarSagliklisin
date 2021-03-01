@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="vertical"
+
+           android:layout_height="match_parent">
+
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:id="@+id/NHLgiris"
+               android:textSize="25dp"
+               android:textColor="#000"
+               android:gravity="center"
+               android:padding="15dp"
+               android:text="Hangi NLH karakterisin ?"/>
+
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+
+
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+
+               android:src="@drawable/soru1lol"/>
+
+
+
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="LOL oynuyor musun ?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru1yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup1">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru1evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru1hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru2dogecoin"/>
+
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Kripto para işinde misin ?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru2yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup2">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru2evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru2hayir"/>
+           </RadioGroup>
+
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru3nargile"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Nargile içer misin?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru3yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup3">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru3evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru3hayir"/>
+           </RadioGroup>
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru4izmirdepremi"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="İzmir depremini hissettin mi?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru4yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup4">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru4evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru4hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru5nofap2"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="No F*B ci misin?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru5yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup5">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru5evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru5hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru6lolping"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Lol de pingin var mı?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru6yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup6">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru6evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru6hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru7discord"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Discord'a atılan her kızın ismini bulur musun?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru7yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup7">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru7evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru7hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru8kedy"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Kedin var mı ?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru8yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup8">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru8evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru8hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="150dp"
+               android:src="@drawable/soru9edt"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="EDT den 100 aldın mı ?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru9yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup9">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru9evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru9hayir"/>
+           </RadioGroup>
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="10dp"
+               android:background="?android:attr/listDivider"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+                android:text="çerEZ"
+               android:textSize="40dp"
+               android:textColor="#FF5733"
+               android:gravity="center"/>
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="58 dk esnek atıp çerEZ yazdın mı ?"
+               android:gravity="center"
+               android:textSize="18dp"
+               android:textColor="#000"
+               android:layout_marginTop="15dp"
+               android:id="@+id/soru10yazi"/>
+
+           <RadioGroup
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:id="@+id/radioGrup10">
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Evet"
+                   android:id="@+id/soru10evet"/>
+
+               <RadioButton
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Hayır"
+                   android:id="@+id/soru10hayir"/>
+           </RadioGroup>
+
+
+           <Button
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/butonsekil"
+               android:text="Karakterini öğren"
+               android:id="@+id/butonson1"
+               android:gravity="center"
+               android:layout_marginTop="15dp"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginBottom="15dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+       </LinearLayout>
+
+
+   </ScrollView>
+
+
+
+
+
+
+</LinearLayout>
