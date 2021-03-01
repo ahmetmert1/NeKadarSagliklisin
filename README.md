@@ -1,6 +1,7 @@
 # NeKadarSagliklisin
 Android uygulaması geliştirme alanına yöneldim ve çalışmaya başladım.
 Bu yüzden öğrendiklerimi pekiştirmek amacıyla basit bir test uygulaması yazdım.
+
 ![Test Başlangıç](/nekadarappimages/images1.JPG)
 
 ![ ](/nekadarappimages/images.JPG)
