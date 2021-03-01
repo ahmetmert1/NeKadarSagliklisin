@@ -10,6 +10,8 @@ Bu yüzden öğrendiklerimi pekiştirmek amacıyla basit bir test uygulaması ya
 
 ![ ](/nekadarappimages/images3.JPG)
 
+# Test sonuçları
+
 ![Sağlıksız kişi testi sonucu.](/nekadarappimages/images4.JPG)
 
 ![Orta sağlıklı kişi testi sonucu.](/nekadarappimages/images5.JPG)
